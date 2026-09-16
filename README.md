@@ -93,7 +93,8 @@ No additional dependencies are required.
 
 ## Live Demo
 
-The portfolio can be viewed through GitHub Pages if the repository is configured for deployment.
+The portfolio can be viewed through NETLIFY if the repository is configured for deployment.
+url : https://abdullahabudayeh.netlify.app/
 
 ## Author
 
