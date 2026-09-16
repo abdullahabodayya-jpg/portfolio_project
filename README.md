@@ -51,6 +51,10 @@ portfolio_project/
 └── README.md
 ```
 
+## 🎨 Figma Design
+
+![Figma Design](./assets/figma-design.png)
+
 ## Purpose
 
 The main purpose of this project is to create a professional online portfolio that represents my development skills, projects, and learning progress.
