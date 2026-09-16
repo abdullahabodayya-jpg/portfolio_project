@@ -53,7 +53,7 @@ portfolio_project/
 
 ## 🎨 Figma Design
 
-![Figma Design](./assets/figma-design.png)
+(./assets/figma-design.png)
 
 ## Purpose
 
