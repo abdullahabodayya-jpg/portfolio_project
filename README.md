@@ -20,7 +20,6 @@ The website includes multiple pages that provide information about me, my projec
 
 * HTML5
 * CSS3
-* JavaScript
 
 ## Features
 
