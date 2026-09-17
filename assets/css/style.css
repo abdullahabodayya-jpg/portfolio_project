@@ -35,12 +35,13 @@ flex-direction: column;
 main {
     flex: 1;
     width: 100%;
-    padding: 60px 5%;
+
+    padding: 60px 0;
+
     animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     opacity: 0;
     transform: translateY(30px);
 }
-
 ::selection {
     background-color: var(--accent);
     color: #fff;
@@ -133,12 +134,14 @@ main {
 
 
 .site-footer {
-    bottom: 0;
+    width: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     padding: 20px 5%;
+
     background-color: var(--nav-bg);
     border-top: 1px solid var(--nav-border);
 } 
@@ -155,33 +158,40 @@ main {
 }
 
 .footer-item {
-
     width: 40px;
-    height: 20px;
+    height: 40px;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     padding: 5px;
     border-radius: 50%;
-
-    
 }
 
-.footer-item a{
+.footer-item a {
     width: 100%;
     height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     text-decoration: none;
     color: var(--text-muted);
+
     transition: all 0.3s ease;
 }
-.footer-item a i{
-    display: inline-block;
-    width: 100px;
-    height: 100%;
-    text-decoration: none;
-    color: var(--text-muted);
+
+.footer-item a i {
+    display: block;
+    width: auto;
+    height: auto;
+
+    color: inherit;
+
     transition: all 0.5s ease;
-} 
+}
 
 .footer-item a i:hover {
     transform: translateY(-3px);
@@ -196,14 +206,20 @@ main {
  /* home */
 
 .hero {
-  max-width: 1200px;
-  padding: 1.2rem 2rem;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 4rem;
-  text-align: left;
+    width: min(1200px, 90%);
+    margin: 0 auto;
+
+    min-height: calc(100vh - 180px);
+
+    padding: 1.2rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 4rem;
+
+    text-align: left;
 }
 .hero-content {
   flex: 1;
@@ -367,8 +383,8 @@ main {
 }
 
 /* projects */
-.page-main { 
-    width: 100%; 
+.page-main {
+    width: 100%;
     padding: 1rem 0;
 }
 
@@ -392,17 +408,15 @@ main {
 }
 
 .section-text{
-    max-width: 600;
+    max-width: 600px;
     margin: 0 auto 2.5rem;
     color: var(--text-muted);
 }
 
 .page-container {
-    width: 100%;
-    max-width: 1200px;
+    width: min(1200px, 90%);
     margin: 0 auto;
-    padding: 35px 20px;
-    
+    padding: 35px 0;
 }
 
 
